@@ -15,10 +15,10 @@ function calculatePermeterAndAreaOfRectangle() {
   const heightOfTriangle = parseInt(document.getElementById('width-of-rectangle').value)
 
   // process
-  const areaOfTriangle = baseOfTriangle + heightOfTriangle - 53.33
-  const HeightOfTriangle = (baseOfTriangle + heightOfTriangle) - 53.33
+  const areaOfTriangle = baseOfTriangle + heightOfTriangle - 80
+  const HeightOfTriangle = (baseOfTriangle + heightOfTriangle) - 80 
 
   // output
-    document.getElementById('area').innerHTML = 'Celsius is: ' + areaOfTriangle 
-  document.getElementById('perimeter').innerHTML = 'Celsius is: ' + perimeterOfRectangle 
+  document.getElementById('area').innerHTML = 'Celsius is 26.667°: ' + areaOfTriangle 
+  document.getElementById('perimeter').innerHTML = 'Celsius is 26.667°: ' + perimeterOfRectangle 
 }
